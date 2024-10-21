@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.equal-cell {
+    box-sizing: border-box;
+    background-color: white;
+    border: 0.1px solid black;
+}
+
+.cells-hover {
+    background-color: black;
+    transition: background-color 0.1s ease;
+}
